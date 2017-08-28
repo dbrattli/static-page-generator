@@ -26,19 +26,19 @@
 <li><a href="https://nodejs.org">node.js</a> 6.11 or higher</li>
 </ul>
 <blockquote>
-<p>Although is not a Fable requirement, on macOS and Linux you&#39;ll need <a href="http://www.mono-project.com/">Mono</a> for other F# tooling like Paket or editor support.</p>
+<p>Although it&#39;s not a Fable requirement, on macOS and Linux you&#39;ll need <a href="http://www.mono-project.com/">Mono</a> for other F# tooling like Paket or editor support.</p>
 </blockquote>
 <h2 id="installing-and-building">Installing and building</h2>
 <ul>
-<li>Clone this repository</li>
+<li><a href="https://github.com/fable-compiler/static-page-generator/">Clone this repository</a></li>
 <li>Install JS dependencies: <code>npm install</code></li>
 <li><strong>Move to src folder</strong>: <code>cd src</code></li>
 <li>Install F# dependencies: <code>dotnet restore</code></li>
 </ul>
-<p>To generate the web page, <em>still in src folder</em> (where the .fsproj is), run <code>dotnet fable npm-start</code>. This will start Fable in watch mode, so any time you edit one of the F# files the page(s) will be generated again. If you just want to run Fable once, use <code>dotnet fable npm-build</code> instead.</p>
+<p>To generate the web page, <em>still in src folder</em> (where the .fsproj is), run <code>dotnet fable npm-start</code>. This will start Fable in watch mode, so any time you edit one of the F# files, the page(s) will be generated again. If you just want to run Fable once, use <code>dotnet fable npm-build</code> instead.</p>
 <p>The web pages will be output to <code>public</code> directory. To start a static server to display them in a browser, <em>in a new terminal and from the repo root</em>, run <code>npm run server</code>. To publish the web pages into gh-pages branch, run <code>npm run publish</code>.</p>
 
-      <div><hr/><p>The text above has been parsed from markdown, the table below is generated from a React component</p><table class="table"><thead><tr><th>First Name</th><th>Family Name</th><th>Birthday</th></tr></thead><tbody><tr><td>Maxime</td><td>Mangel</td><td>28/02/1992</td></tr><tr><td>Jane</td><td>Doe</td><td>21/07/1987</td></tr><tr><td>John</td><td>Doe</td><td>11/07/1978</td></tr></tbody></table></div>
+      <div><hr/><p>The text above has been parsed from markdown, the table below is generated from a React component.</p><table class="table"><thead><tr><th>First Name</th><th>Family Name</th><th>Birthday</th></tr></thead><tbody><tr><td>Maxime</td><td>Mangel</td><td>28/02/1992</td></tr><tr><td>Jane</td><td>Doe</td><td>21/07/1987</td></tr><tr><td>John</td><td>Doe</td><td>11/07/1978</td></tr></tbody></table></div>
     </div>
   </body>
 </html>
